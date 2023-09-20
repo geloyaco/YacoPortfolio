@@ -1,249 +1,140 @@
-/* Universal Styles */
 body {
-    background-image: url("https://raw.githubusercontent.com/cbatuic/learn-web/main/css/burger/assets/htmlcss1-img_foodlogo.png");
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  /* Navigation */
-  
-  nav {
-    text-align: center;
-  
-  }
-  
-  nav img {
-    margin: 0 auto;
-    width: 180px;
-    display: block;
-  }
-  
-  nav span {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 0;
-    margin-right: 0;
-    display: block;
-    font-size: 16px;
-    font-weight: 100;
-    letter-spacing: 2px;
-  }
-  
-  nav a {
-    color: #666666;
-  }
-  
-  /* Content Container */
-  
-  .content {
-    overflow: scroll;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 500px;
-    width: 100%;
-  }
-  
-  /* Content Header */
-  
-  .header {
-    height: 320px;
-    background-image: url("https://raw.githubusercontent.com/cbatuic/learn-web/main/css/burger/assets/htmlcss1-img_burgerphoto.jpeg");
-    background-position: center;
-    background-size: cover;
-  }
-  
-  .header h1 {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    background-color: #05A8AA;
-    color: #FFF;
-    font-family: 'Oswald', sans-serif;
-    font-size: 40px;
-    font-weight: 300;
-    line-height: 40px;
-    width: 68%;
-  }
-  
-  /* Content Body */
-  
-  .content .body {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-  }
-  
-  .body p {
-    color: #333333;
-    font-weight: 100;
-    line-height: 34px;
-    width: 90%;
-    margin-top: 18px;
-  }
-  
-  /* Content Button */
-  
-  .button {
-    border-radius: 4px;
-    color: #05A8AA;
-    display: block;
-    font-weight: 700;
-  }
-  
-  .button:hover {
-    background-color: #05A8AA;
-    border: 1px solid #05A8AA;
-    color: #FFF;
-  }
-  
-  /* Content Nutrition */
-  
-  ul.nutrition {
-    padding: 20px;
-
-  }
-  
-  ul.nutrition li {
-    margin-bottom: 3px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 200px;
-    display: inline-block;
-    background-color: #05A8AA;
-    list-style: none;
-  }
-  
-  .nutrition .category {
-    color: white;
-    font-weight: 100;
-    letter-spacing: 2px;
-    display: block;
-  }
-  
-  .nutrition .value {
-    color: white;
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 2px;
-  }
-
-  /*
-  For Porfolio
-  */
-body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: white;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: #333;
-  color: white;
+  background-image: url("https://raw.githubusercontent.com/cbatuic/learn-web/main/css/burger/assets/htmlcss1-img_foodlogo.png");
   text-align: center;
-  padding: 20px;
-}
-
-header h1 {
-  font-size: 36px;
-  margin: 0;
-}
-
-header p {
-  font-size: 16px;
-  margin: 5px 0;
-}
-
-.container {
-  display: relative;
-  flex-direction: row;
-  align-items: center;
-  margin: 13px;
-}
-
-.portfolio-section {
-  background-color: white;
-  border: 1px solid #ddd;
-  margin: 10px;
-  padding: 20px;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.portfolio-section h2 {
-  font-size: 24px;
-  color: #333;
-}
-
-.portfolio-section p {
-  font-size: 16px;
-  color: #666;
-  margin: 10px 0;
-}
-
-.portfolio-section a {
-  color: #05A8AA;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.portfolio-section a:hover {
-  color: #333;
-}
-
-.additional-content {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.additional-content h2 {
-  font-size: 28px;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.additional-content p {
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
-  color: #666;
 }
 
-footer {
-  text-align: center;
-  background-color: #333;
-  color: white;
-  padding: 10px 0;
-
-/* Social Media Links */
-.social-media {
-  margin-top: 20px;
-}
-
-.social-media a {
-  display: inline-block;
-  margin-right: 10px; 
+a {
   text-decoration: none;
-  color: #05A8AA; 
-  font-size: 24px; 
-  transition: color 0.3s; 
- 
-}
-.social-media a:hover {
-  color: #333; 
-}
 }
 
-/*
-  For Portfolio */
+/* Navigation */
+
+nav {
+  text-align: center;
+
+}
+
+nav img {
+  margin: 0 auto;
+  width: 180px;
+  display: block;
+}
+
+nav span {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  display: block;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+nav a {
+  color: #666666;
+}
+
+/* Content Container */
+
+.content {
+  overflow: scroll;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 100%;
+}
+
+/* Content Header */
+
+.header {
+  height: 320px;
+  background-image: url("https://raw.githubusercontent.com/cbatuic/learn-web/main/css/burger/assets/htmlcss1-img_burgerphoto.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.header h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: #05A8AA;
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 40px;
+  width: 68%;
+}
+
+/* Content Body */
+
+.content .body {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.body p {
+  color: #333333;
+  font-weight: 100;
+  line-height: 34px;
+  width: 90%;
+  margin-top: 18px;
+}
+
+/* Content Button */
+
+.button {
+  border-radius: 4px;
+  color: #05A8AA;
+  display: block;
+  font-weight: 700;
+}
+
+.button:hover {
+  background-color: #05A8AA;
+  border: 1px solid #05A8AA;
+  color: #FFF;
+}
+
+/* Content Nutrition */
+
+ul.nutrition {
+  padding: 20px;
+
+}
+
+ul.nutrition li {
+  margin-bottom: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 200px;
+  display: inline-block;
+  background-color: #05A8AA;
+  list-style: none;
+}
+
+.nutrition .category {
+  color: white;
+  font-weight: 100;
+  letter-spacing: 2px;
+  display: block;
+}
+
+.nutrition .value {
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}

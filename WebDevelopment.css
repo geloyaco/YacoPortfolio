@@ -1,0 +1,67 @@
+/* Add your CSS styles for the Web Development page here */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.web-development {
+    display: flex;
+    flex-direction: column; /* Change to vertical direction */
+    justify-content: space-around; /* Vertically space the containers */
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    min-height: 80vh; /* Center vertically */
+}
+
+.activity-container {
+    background-color: rgb(247, 246, 246);
+    border: 1px solid #ccc;
+    padding: 60px 500px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activity-container:hover {
+    transform: translateY(-5px);
+}
+
+.activity-container h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.activity-container p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.activity-container a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: color 0.2s ease-in-out;
+}
+
+.activity-container a:hover {
+    color: #666;
+}
+
+/* Add more styles as needed */

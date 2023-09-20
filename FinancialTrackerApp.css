@@ -1,0 +1,43 @@
+/* Add your CSS styles for the Financial Tracker App page here */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+
+  .financial-tracker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+  }
+
+  .financial-tracker a {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    background-color: #333;
+    padding: 20px 50px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  .financial-tracker a:hover {
+    background-color: #666;
+  }

@@ -1,26 +1,22 @@
-/* Reset some default styles */
 body, h1, h2, p {
     margin: auto;
     padding: auto;
   }
-  
-  /* Apply a background color to the whole page */
+
   body {
     background-color: #333;
     font-family: 'Montserrat', sans-serif;
   }
   
-  /* Style the header */
   header {
     background-image: url('https://i.pinimg.com/564x/0f/50/ba/0f50ba0140068594a65ff5fff289ead2.jpg');
-    background-size: 300px; /* Cover the entire header with the image */
+    background-size: 300px; 
     color: white;
     text-align: center;
     position: relative;
     padding: 100px;
   }
   
-  /* Style the main content section */
   .about-me {
     text-align: center;
     border-radius: 30px;
@@ -30,38 +26,32 @@ body, h1, h2, p {
     background-color: #272929cb;
     box-shadow: 0 0 10px white;
     color: white;
-    text-align: center; /* Center-align the content */
+    text-align: center; 
   }
   
-  /* Style headings */
   h1, h2 {
     color: white;
   }
 
   p {
     font-size: 1.2rem;
-    margin: 10px 0; /* Add spacing between personal information items */
+    margin: 10px 0; 
   }
   
   .description {
-    text-align: left; /* Align text to the left */
+    text-align: left; 
   }
   
-
-  
-  /* Style personal information */
   .about-me h2 {
-    margin: 20px 0; /* Add spacing between the text */
-    font-size: 24px; /* Increase font size for headers */
-    font-weight: bold; /* Make headers bold */
+    margin: 20px 0; 
+    font-size: 24px; 
+    font-weight: bold; 
   }
   
-  /* Style social media links */
   .social-media {
     margin-top: 10px;
   }
   
-  /* Style social media icons */
   .social-media a {
     display: inline-block;
     text-decoration: none;
@@ -73,13 +63,10 @@ body, h1, h2, p {
     transition: background-color 0.3s;
   }
   
-  /* Add spacing between social media icons */
   .social-media a:not(:last-child) {
     margin-right: 10px;
   }
   
-  /* Style social media icons */
   .social-media i {
     margin-right: 5px;
   }
-  

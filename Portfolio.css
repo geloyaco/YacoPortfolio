@@ -1,13 +1,11 @@
 /* Portfolio.css */
-
-/* Reset default margin and padding for all elements */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Apply a background color to the entire page */
+
   body {
     font-family: 'Montserrat', sans-serif;
     background-color: #627e7e2f; /* Light gray background */
@@ -18,22 +16,22 @@
   /* Style the header section */
   header {
     background-image: url('https://i.pinimg.com/236x/4e/39/0a/4e390a09ea488a454dd2c9b12d4cf706.jpg');
-    background-size: 300px; /* Cover the entire header with the image */
+    background-size: 300px; 
     color: white;
     text-align: center;
     padding: 230px;
-    position: relative; /* Add this to position the cover photo */
+    position: relative; 
   }
 
   header h1 {
     font-size: 36px;
-    position: absolute; /* Position the title on top of the cover photo */
+    position: absolute; 
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   
-  /* Style the main container */
+
   .container {
     display: flex;
     flex-direction: column;
@@ -41,18 +39,18 @@
     justify-content: center;
     padding: 35px;
     margin: 0 auto;
-    max-width: 1200px; /* Limit content width */
+    max-width: 1200px; 
   }
   
-  /* Style portfolio sections */
+
   .portfolio-section {
     background-color: white;
     border: 1px solid #ffffff;
     padding: 20px;
     border-radius: 5px;
     text-align: center;
-    width: 100%; /* Full width */
-    margin-bottom: 20px; /* Space between sections */
+    width: 100%; 
+    margin-bottom: 20px; 
   }
   
   .portfolio-section h2 {
